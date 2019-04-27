@@ -1,0 +1,15 @@
+.Pokecard-card{
+    border: 2px solid gray;
+    width:250px;
+    padding: 10px;
+    margin:1rem;
+    text-align: center;
+    box-shadow: 7px 10px 12px -5px black;
+    background-color: #e7e8e9;
+    border-radius: 7px;
+}
+.Pokecard-img{
+    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-radius: 50%;
+}
