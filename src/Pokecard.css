@@ -8,8 +8,22 @@
     background-color: #e7e8e9;
     border-radius: 7px;
 }
-.Pokecard-img{
-    border-bottom: 2px solid black;
-    border-top: 1px solid black;
-    border-radius: 50%;
+
+.Pokecard-divIMG{
+    height: 200px;
+    background-color: #bfc4c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.Pokecard-card img{
+    transition: all ease 800ms;
+}
+.Pokecard-card img:hover{
+transform: scale(1.50);
+background-color: rgb(153, 153, 153);
+border-radius: 50%;
+box-shadow:  7px 10px 12px -5px black;
 }
